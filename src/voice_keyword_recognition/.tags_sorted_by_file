@@ -1,0 +1,192 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+avg2	MFCC.c	/^float avg2(float *mfcc_p, u16 frm_num, u16 fnum)$/;"	f
+fft_in	MFCC.c	/^float fft_in[mfcc_fft_point];$/;"	v
+fft_in_i	MFCC.c	/^float fft_in_i[mfcc_fft_point];$/;"	v
+fft_out	MFCC.c	/^float fft_out[mfcc_fft_point];$/;"	v
+get_one_mfcc	MFCC.c	/^void get_one_mfcc(float *vc_dat, float *mfcc_p)$/;"	f
+mfcc_fft	MFCC.c	/^float *mfcc_fft(float *dat_buf, u16 buf_len)$/;"	f
+normalize2	MFCC.c	/^void normalize2(float *mfcc_p, float *feature_fbank_normal, u16 frm_num, u16 fbank_num)$/;"	f
+stdev2	MFCC.c	/^float stdev2(float *mfcc_p, float avg1, u16 frm_num, u16 fnum)$/;"	f
+_MFCC_H	MFCC.h	2;"	d
+frq_max	MFCC.h	6;"	d
+mfcc_fft_point	MFCC.h	5;"	d
+mfcc_num	MFCC.h	9;"	d
+tri_num	MFCC.h	8;"	d
+MFCC_Arg	MFCC_Arg.h	2;"	d
+bin	MFCC_Arg.h	/^const u16 bin[] = {$/;"	v
+bin64	MFCC_Arg.h	/^const u16 bin64[] = {$/;"	v
+dct_arg	MFCC_Arg.h	/^const s8 dct_arg[] = {$/;"	v
+dct_para	MFCC_Arg.h	/^const float dct_para[] = {$/;"	v
+fbank	MFCC_Arg.h	/^const float fbank[] = {$/;"	v
+fbank64	MFCC_Arg.h	/^const float fbank64[] = {$/;"	v
+hamm	MFCC_Arg.h	/^const u16 hamm[] = {$/;"	v
+hamming320	MFCC_Arg.h	/^const float hamming320[] = {$/;"	v
+lifter	MFCC_Arg.h	/^const float lifter[] = {$/;"	v
+tri_cen	MFCC_Arg.h	/^const u16 tri_cen[] = {$/;"	v
+tri_even	MFCC_Arg.h	/^const u16 tri_even[] = {$/;"	v
+tri_odd	MFCC_Arg.h	/^const u16 tri_odd[] = {$/;"	v
+BITREV	fft.c	/^int BITREV[FFT_N];$/;"	v
+M_PI	fft.c	5;"	d	file:
+NULL	fft.c	7;"	d	file:
+SIN_TAB	fft.c	/^float SIN_TAB[FFT_N + FFT_N \/ 4];$/;"	v
+ifft	fft.c	/^void ifft(int N, float *real, float *imag)$/;"	f
+make_bitrev	fft.c	/^void make_bitrev(int n, int *bitrev)$/;"	f
+make_sintbl	fft.c	/^void make_sintbl(int n, float *sintbl)$/;"	f
+myfft	fft.c	/^int myfft(float *x, float *y, int n)$/;"	f
+FFT_N	fft.h	11;"	d
+PI	fft.h	10;"	d
+__FFT_H__	fft.h	2;"	d
+complex	fft.h	/^typedef struct complex \/\/复数类型$/;"	s
+complex	fft.h	/^} complex;$/;"	t	typeref:struct:complex
+imag	fft.h	/^	float imag;   \/\/虚部$/;"	m	struct:complex
+real	fft.h	/^	float real;   \/\/实部$/;"	m	struct:complex
+DEBUG_RECG	g_def.h	12;"	d
+_G_DEF_H_	g_def.h	2;"	d
+s16	g_def.h	/^typedef int16_t s16;$/;"	t
+s32	g_def.h	/^typedef int32_t  s32;$/;"	t
+s8	g_def.h	/^typedef int8_t  s8;$/;"	t
+u16	g_def.h	/^typedef uint16_t u16;$/;"	t
+u32	g_def.h	/^typedef uint32_t  u32;$/;"	t
+u8	g_def.h	/^typedef uint8_t  u8;$/;"	t
+gencode_outputactive_addr_0	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_0 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_1	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_1 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_2	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_2 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_3	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_3 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_4	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_4 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_5	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_5 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_6	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_6 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_7	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_7 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_8	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_8 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputactive_addr_9	gencode_output.c	/^static kpu_activate_table_t gencode_outputactive_addr_9 __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_0	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_0[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_1	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_1[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_2	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_2[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_3	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_3[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_4	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_4[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_5	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_5[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_6	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_6[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_7	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_7[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_8	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_8[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputbwsx_base_addr_9	gencode_output.c	/^static kpu_batchnorm_argument_t gencode_outputbwsx_base_addr_9[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputla	gencode_output.c	/^static kpu_layer_argument_t gencode_outputla[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_0	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_0[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_1	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_1[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_2	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_2[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_3	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_3[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_4	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_4[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_5	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_5[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_6	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_6[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_7	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_7[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_8	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_8[] __attribute__((aligned(128))) = {$/;"	v	file:
+gencode_outputpara_start_addr_9	gencode_output.c	/^static uint16_t gencode_outputpara_start_addr_9[] __attribute__((aligned(128))) = {$/;"	v	file:
+kpu_task_gencode_output_init	gencode_output.c	/^kpu_task_t* kpu_task_gencode_output_init(kpu_task_t* task){$/;"	f
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+FFT_INPUT_DATA_MODE_32Bit	i2s_audio.c	24;"	d	file:
+FFT_INPUT_DATA_MODE_64Bit	i2s_audio.c	23;"	d	file:
+FFT_IN_MODE_RIRI	i2s_audio.c	20;"	d	file:
+FFT_IN_MODE_RRRR	i2s_audio.c	21;"	d	file:
+FFT_IN_MODE_RRRRIIII	i2s_audio.c	22;"	d	file:
+FFT_NOT_USING_DMA	i2s_audio.c	25;"	d	file:
+FFT_POINT	i2s_audio.c	17;"	d	file:
+FFT_RESULT_ADDR	i2s_audio.c	29;"	d	file:
+FFT_SHIFT_FACTOR	i2s_audio.c	27;"	d	file:
+FFT_USING_DMA	i2s_audio.c	26;"	d	file:
+I2S_INPUT_SHIFT_FACTOR	i2s_audio.c	15;"	d	file:
+audio_init_all	i2s_audio.c	/^void audio_init_all(void)$/;"	f
+buffer	i2s_audio.c	/^static int32_t buffer[GCCPHAT_SIZE][2];$/;"	v	file:
+buffer_raw	i2s_audio.c	/^static int32_t buffer_raw[GCCPHAT_SIZE][2];$/;"	v	file:
+core_func	i2s_audio.c	/^static int core_func(void* ctx)$/;"	f	file:
+do_direction_scan	i2s_audio.c	/^void do_direction_scan(void)$/;"	f
+fft_result1	i2s_audio.c	/^volatile uint64_t* fft_result1 = (volatile uint64_t *)FFT_RESULT_ADDR;$/;"	v
+i2s_set_sign_expand_en	i2s_audio.c	/^static inline void i2s_set_sign_expand_en(i2s_device_number_t device_num, uint32_t enable)$/;"	f	file:
+int_i2s	i2s_audio.c	/^int int_i2s(void* args)$/;"	f
+on_direction_calced	i2s_audio.c	/^void (*on_direction_calced)(int x, int y, int64_t val);$/;"	v
+on_i2s_data	i2s_audio.c	/^void (*on_i2s_data)(int32_t *data);$/;"	v
+worker_status	i2s_audio.c	/^static volatile int worker_status = 0;$/;"	v	file:
+FPIOA_GPIO4	i2s_audio.h	14;"	d
+FPIOA_I2S0_IN_D0	i2s_audio.h	17;"	d
+FPIOA_I2S0_IN_D1	i2s_audio.h	18;"	d
+FPIOA_I2S0_IN_D2	i2s_audio.h	19;"	d
+FPIOA_I2S0_IN_D3	i2s_audio.h	20;"	d
+FPIOA_I2S0_SCLK	i2s_audio.h	15;"	d
+FPIOA_I2S0_WS	i2s_audio.h	16;"	d
+GCCPHAT_SIZE	i2s_audio.h	12;"	d
+I2S_DMA_CHANNEL	i2s_audio.h	11;"	d
+ai_lock	main.c	/^spinlock_t ai_lock = SPINLOCK_INIT;$/;"	v
+buffer	main.c	/^static int32_t buffer[512];$/;"	v	file:
+fft_lock	main.c	/^spinlock_t fft_lock = SPINLOCK_INIT;$/;"	v
+io_mux_init	main.c	/^void io_mux_init(){$/;"	f
+main	main.c	/^int main(void)$/;"	f
+on_audio_data	main.c	/^void on_audio_data(int32_t *data)$/;"	f
+on_audio_pos	main.c	/^void on_audio_pos(int x, int y, int64_t val)$/;"	f
+matrix_add	matrix.h	/^static float matrix_add[7] =$/;"	v
+matrix_mul	matrix.h	/^const static float matrix_mul[1024][7] =$/;"	v
+KPU_FRAME_LEN	speech_recog.c	34;"	d	file:
+VOICE_7_DIMENSION	speech_recog.c	35;"	d	file:
+add_feature	speech_recog.c	/^static void add_feature()$/;"	f	file:
+ai_input	speech_recog.c	/^static uint64_t ai_input[256*64];$/;"	v	file:
+ai_output	speech_recog.c	/^static uint8_t *ai_output;$/;"	v	file:
+buffer	speech_recog.c	/^static int32_t buffer[768];$/;"	v	file:
+cpu_regcog	speech_recog.c	/^void cpu_regcog()$/;"	f
+do_recog	speech_recog.c	/^static void do_recog()$/;"	f	file:
+feature_fbank	speech_recog.c	/^float feature_fbank[256*64] = {0};$/;"	v
+feature_fbank_normal	speech_recog.c	/^float feature_fbank_normal[256*64] = {0};$/;"	v
+feature_fbank_t	speech_recog.c	/^float feature_fbank_t[64];$/;"	v
+feature_feature_fbank	speech_recog.c	/^const float feature_feature_fbank[] = {$/;"	v
+feature_index	speech_recog.c	/^static int feature_index = 0;$/;"	v	file:
+features	speech_recog.c	/^static uint8_t features[128][64];$/;"	v	file:
+features_init	speech_recog.c	/^void features_init()$/;"	f
+frame	speech_recog.c	/^static fft_data_t frame[256];$/;"	v	file:
+g_on_speech_ai_finish_flag	speech_recog.c	/^volatile bool g_on_speech_ai_finish_flag = false;$/;"	v
+get_energy	speech_recog.c	/^static bool get_energy()$/;"	f	file:
+hann	speech_recog.c	/^static void hann(int32_t* start)$/;"	f	file:
+kpu_module_init	speech_recog.c	/^void kpu_module_init()$/;"	f
+matrix_mul_add_2_7dimension	speech_recog.c	/^static void matrix_mul_add_2_7dimension()$/;"	f	file:
+matrix_mul_add_to_7dimension	speech_recog.c	/^static volatile float matrix_mul_add_to_7dimension[7] = {0};$/;"	v	file:
+matrix_peru	speech_recog.c	/^static volatile float matrix_peru[KPU_FRAME_LEN] = {0};$/;"	v	file:
+max_0_input	speech_recog.c	/^static void max_0_input()$/;"	f	file:
+on_speech_ai_finish	speech_recog.c	/^void on_speech_ai_finish(void)$/;"	f
+on_speech_recog	speech_recog.c	/^void (*on_speech_recog)(int);$/;"	v
+peru	speech_recog.c	/^static void peru()$/;"	f	file:
+power	speech_recog.c	/^static float power[64];$/;"	v	file:
+soft_max_count	speech_recog.c	/^int soft_max_count[7]={0,0,0,0,0,0,0};$/;"	v
+softmax	speech_recog.c	/^static void softmax()$/;"	f	file:
+softmax_v	speech_recog.c	/^static volatile float softmax_v[7];$/;"	v	file:
+speec_recog_frame	speech_recog.c	/^void speec_recog_frame(int32_t* frame_input)$/;"	f
+speech_recog_init	speech_recog.c	/^void speech_recog_init()$/;"	f
+systick_current_millis	speech_recog.c	/^unsigned int systick_current_millis()$/;"	f
+task	speech_recog.c	/^static kpu_task_t task;$/;"	v	file:
+v_dat	speech_recog.c	/^int16_t v_dat[512] = {0};$/;"	v
+win_hamming	speech_recog.c	/^const float win_hamming[] = {$/;"	v
+AI_DMA	speech_recog.h	5;"	d
+FFT_DMA_1	speech_recog.h	6;"	d
+FFT_DMA_2	speech_recog.h	7;"	d
+SPEECH_RECOG_H	speech_recog.h	2;"	d
+SPI_MAX_NUM	ws2812b.c	31;"	d	file:
+_WS2812_DATA	ws2812b.c	/^    typedef struct _WS2812_DATA{$/;"	s	file:
+_WS2812_INFO	ws2812b.c	/^    typedef struct _WS2812_INFO{$/;"	s	file:
+blue	ws2812b.c	/^        uint32_t blue : 8;$/;"	m	struct:_WS2812_DATA	file:
+configASSERT	ws2812b.c	26;"	d	file:
+green	ws2812b.c	/^        uint32_t green : 8;$/;"	m	struct:_WS2812_DATA	file:
+red	ws2812b.c	/^        uint32_t red : 8;$/;"	m	struct:_WS2812_DATA	file:
+reserved	ws2812b.c	/^        uint32_t reserved : 8;$/;"	m	struct:_WS2812_DATA	file:
+spi_clk_init_ws2812	ws2812b.c	/^int spi_clk_init_ws2812(uint8_t spi_bus){$/;"	f
+spi_get_rate_ws2812	ws2812b.c	/^uint32_t spi_get_rate_ws2812(uint8_t spi_bus){$/;"	f
+spi_init_ws2812	ws2812b.c	/^int spi_init_ws2812(uint8_t spi_bus){$/;"	f
+spi_master_config_ws2812	ws2812b.c	/^int spi_master_config_ws2812(uint8_t spi_bus){$/;"	f
+spi_normal_send_dma_ws2812	ws2812b.c	/^int spi_normal_send_dma_ws2812(dmac_channel_number_t channel_num, uint8_t spi_bus, uint32_t chip_sel,$/;"	f
+ws2812_clear	ws2812b.c	/^bool ws2812_clear(ws2812_info *ws){$/;"	f
+ws2812_data	ws2812b.c	/^    } ws2812_data;$/;"	t	typeref:struct:_WS2812_DATA	file:
+ws2812_get_buf	ws2812b.c	/^ws2812_info *ws2812_get_buf(uint32_t num){$/;"	f
+ws2812_info	ws2812b.c	/^    } ws2812_info;$/;"	t	typeref:struct:_WS2812_INFO	file:
+ws2812_init	ws2812b.c	/^void ws2812_init()$/;"	f
+ws2812_release_buf	ws2812b.c	/^bool ws2812_release_buf(ws2812_info *ws){$/;"	f
+ws2812_run	ws2812b.c	/^void ws2812_run(int mode)$/;"	f
+ws2812_send_data	ws2812b.c	/^bool ws2812_send_data(uint32_t SPINUM, dmac_channel_number_t DMAC_NUM, ws2812_info *ws){$/;"	f
+ws2812_set_data	ws2812b.c	/^bool ws2812_set_data(ws2812_info *ws, uint32_t num, uint8_t r, uint8_t g, uint8_t b){$/;"	f
+ws_buf	ws2812b.c	/^        ws2812_data *ws_buf;$/;"	m	struct:_WS2812_INFO	file:
+ws_num	ws2812b.c	/^        size_t ws_num;$/;"	m	struct:_WS2812_INFO	file:
